@@ -26,8 +26,7 @@ def main():
     num_args = len(argv)
 
     if num_args == 0:
-        print("Number of argument(s): 0.")
-        print(".")
+        print("0 arguments.")
     else:
         
         if num_args == 1:
