@@ -36,4 +36,3 @@ def validate_password(password:str):
     return is_valid
 
 
-
