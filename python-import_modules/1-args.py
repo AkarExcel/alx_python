@@ -29,8 +29,11 @@ def main():
         print("Number of argument(s): 0.")
         print(".")
     else:
-        print(f"Number of argument(s): {num_args}.")
-        print(":")
+        
+        if num_args == 1:
+            print(f"{num_args} argument:")
+        else:
+            print(f"{num_args} arguments:")
         for i, arg in enumerate(argv, start=1):
             print(f"{i}: {arg}")
 
